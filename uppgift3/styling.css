@@ -1,0 +1,61 @@
+body {
+    /* Använder display flex för att skapa en box för hela bodyn.
+    Sätter flex direction till column så att boxarna i bodyn placeras på varandra.
+    Sätter margin till 0 och height till 100vh så att content ska fylla ut ända till kanterna*/
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+}
+
+.blue {
+    /* Andvänder display flex för att göra diven till en box
+    Sätter grow 1 så att den ska ta mer plats och färg blå */
+    display: flex;
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.container {
+    /* Skapar en box för de tre mitten divarna så att jag kan köra flex direction row
+    så att dessa divar lägger sig bredvid varandra.
+    Sätter grow 6 så att denna box tar upp mer utrymme än den övre och undre boxen */
+    display: flex;
+    flex-grow: 6;
+    flex-direction: row;
+}
+
+.yellow {
+    /* Samma hör, display flex för skapa flex box för diven.
+    Sätter grow 1 och alla andra boxar i container diven så att de tar upp lika stor yta
+    Sätter backgrundsgärg */
+    display: flex;
+    flex-grow: 1;
+    background-color: yellow;
+}
+
+.green {
+    /* Samma hör, display flex för skapa flex box för diven.
+    Sätter grow 1 och alla andra boxar i container diven så att de tar upp lika stor yta
+    Sätter backgrundsgärg */
+    display: flex;
+    flex-grow: 1;
+    background-color: green;
+}
+
+.black {
+    /* Samma hör, display flex för skapa flex box för diven.
+    Sätter grow 1 och alla andra boxar i container diven så att de tar upp lika stor yta
+    Sätter backgrundsgärg */
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+}
+
+.grey {
+    /* Andvänder display flex för att göra diven till en box
+    Sätter grow 1 så att den ska ta mer plats och färg grå */
+    display: flex;
+    flex-grow: 1;
+    background-color: grey;
+}
