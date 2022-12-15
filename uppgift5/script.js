@@ -6,8 +6,6 @@ function generateList(){
         length: Math.floor(Math.random() * 10) + 1
     }, () => Math.floor(Math.random() * 101));
 
-    console.log(array);
-
     let list = document.createElement("ol");
     for (let i = 0; i < array.length; i++)
     {
